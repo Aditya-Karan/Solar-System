@@ -1,0 +1,240 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://imgs.search.brave.com/3zt1Wi_KxP0cooBFM9L2Di0IKMGerAkmAqBY6_9zWtc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/Mjg0OTgxODg5MDQt/MDM2ZjVlMjVlOTNl/P2l4bGliPXJiLTQu/MC4zJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4TVRS/OGZITjBZWEp5ZVNV/eU1ITnJlWHhsYm53/d2ZId3dmSHg4TUE9/PSZ3PTEwMDAmcT04/MA");
+    background-size: 100%;
+}
+.sun{
+    height: 120px;
+    width: 120px;
+    background-image: url("https://imgs.search.brave.com/_mIB1Bp-Q50FFEmveLeNaHxpVX0x9GvTwqhFIDyT9ao/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bmljZXBuZy5jb20v/cG5nL2Z1bGwvMTM2/LTEzNjQ2NTFfcmVh/bC1hbmltYXRlZC1p/bWFnZS1vZi10aGUt/c3VuLXRyYW5zcGFy/ZW50LWJhY2tncm91/bmQucG5n");
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 0px 0px 0px #f9c05f;
+    position: absolute;
+    left: 50.5%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.mercury{
+    height: 20px;
+    width: 20px;
+    background-image: url("https://imgs.search.brave.com/-hCvv3Z3iVZRBRKJ1QahnbToT6UEuUCz1RXUem_Dlac/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jc2Vs/aWdtYW4uY29tL3Rl/eHQvcGxhbmV0cy9t/ZXJjdXJ5MDgxMDA2/LmpwZw");
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #f9c05f;
+    left: 40%;
+    top: 40%;
+    /* transform: translate(-50%,-50%); */
+    animation: orbit2 2s linear infinite;
+}
+@keyframes orbit2{
+    from{
+        transform: rotate(0deg)translateX(50px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(50px) rotate(-360deg);
+    }
+}
+p{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+
+}
+.mercury-outline,.venus-outline-1,.earth-outline-1,.mars-outline-1,.jupiter-outline-1,.saturn-outline-1,.uranus-outline-1,.neptune-outline-1{
+    border-radius: 50%;
+    border: 1px dotted rgb(75, 75, 65);
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
+.mercury-outline{
+    height: 105px;
+    width: 105px;
+}
+.venus{
+    height: 35px;
+    width: 35px;
+    background-image: url("https://imgs.search.brave.com/oVtLYuEUUa9-HTUwF62t_bM9LSmMhvwNtwByODWEhIQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcx/MTQ5NzEwL3Bob3Rv/L3ZlbnVzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1YZzgx/OFVDalN6RGdWQWxQ/V25hZUFNUF9BS0NG/OVJKcF9YVVN2NTdX/VndvPQ");
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    animation: orbit3 4s linear infinite;
+}
+.venus-outline-1{
+    height: 180px;
+    width: 180px;
+}
+@keyframes orbit3{
+    from{
+        transform: rotate(0deg)translateX(88px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(88px) rotate(-360deg);
+    }
+}
+.earth{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://imgs.search.brave.com/irAJWrANNKw2NCnu25aPEiM30tfZldJb1w9HuW0HEUA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlcGhvdG9hcmd1/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMTcvMDcvZWFy/dGgtMi5qcGc" );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #f9c05f;
+    left: 41%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+    animation: orbit4 7s linear infinite;
+}
+.earth-outline-1{
+    height: 270px;
+    width: 270px;
+}
+@keyframes orbit4{
+    from{
+        transform: rotate(0deg)translateX(135px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(135px) rotate(-360deg);
+    }
+}
+.mars{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://imgs.search.brave.com/HelBResXMuhRV6jHJV97SXsGK_MM4PV-1_YYB53Gvys/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXNhLmludC92YXIv/ZXNhL3N0b3JhZ2Uv/aW1hZ2VzL2VzYV9t/dWx0aW1lZGlhL2lt/YWdlcy8yMDA3LzAy/L3RydWUtY29sb3Vy/X2ltYWdlX29mX21h/cnNfc2Vlbl9ieV9v/c2lyaXMvOTk2OTcw/NS0yLWVuZy1HQi9U/cnVlLWNvbG91cl9p/bWFnZV9vZl9NYXJz/X3NlZW5fYnlfT1NJ/UklTX2FydGljbGUu/anBn" );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #f9c05f;
+    left: 47%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+    animation: orbit5 10s linear infinite;
+}
+.mars-outline-1{
+    height: 375px;
+    width: 370px;
+}
+@keyframes orbit5{
+    from{
+        transform: rotate(0deg)translateX(187px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(187px) rotate(-360deg);
+    }
+}
+.jupiter{
+    height: 60px;
+    width: 60px;
+    background-image: url("https://imgs.search.brave.com/xOX3o_ayoozOtkx2SftDMEMctdt2EXwIUCvzd7G-Gl8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy84/Lzg0L0h1YmJsZV9W/aXNpYmxlX1ZpZXdf/b2ZfSnVwaXRlci5q/cGc" );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #f9c05f;
+    left: 48%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    animation: orbit6 15s linear infinite;
+}
+.jupiter-outline-1{
+    height: 510px;
+    width: 510px;
+}
+@keyframes orbit6{
+    from{
+        transform: rotate(0deg)translateX(260px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(260px) rotate(-360deg);
+    }
+}
+.saturn{
+    height: 70px;
+    width: 70px;
+    background-image: url("https://imgs.search.brave.com/WspfuBaKhNPeCaEikW4D8w82xnwhqNJCpTugWf89e4A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bWVkaWFzdG9yZWhv/dXNlLmNvbS90LzE2/NC9zYXR1cm4tbmF0/dXJhbC1jb2xvci1w/aG90b2dyYXBoZWQt/Y2Fzc2luaS0xNDMz/MDk5NS5qcGc" );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #f9c05f;
+    left: 47%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+    animation: orbit7 20s linear infinite;
+}
+.saturn-outline-1{
+    height: 650px;
+    width: 650px;
+}
+@keyframes orbit7{
+    from{
+        transform: rotate(0deg)translateX(335px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(335px) rotate(-360deg);
+    }
+}
+.uranus{
+    height: 70px;
+    width: 70px;
+    background-image: url("https://imgs.search.brave.com/C8-veGrYQ059oPO6kwZJFH9aqzJyd24J8wweE4huXOI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzEzLzkwLzgz/LzM2MF9GXzExMzkw/ODMxMF9JTmlNaXFY/bzl5MExoM2txVERW/cHMxSEpDcFBXS0tv/Uy5qcGc" );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #f9c05f;
+    left: 47%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+    animation: orbit8 25s linear infinite;
+}
+.uranus-outline-1{
+    height: 800px;
+    width: 805px;
+}
+@keyframes orbit8{
+    from{
+        transform: rotate(0deg)translateX(400px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(400px) rotate(-360deg);
+    }
+}
+.neptune{
+    height: 60px;
+    width: 60px;
+    background-image: url("https://imgs.search.brave.com/4P1HD2sJ_oQK3CxZ6teG6GJ8DAaat7QDc8__tKoPQyE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODY5/NzIyMjEyL3Bob3Rv/L3Bob3RvZ3JhcGgt/b2YtdGhlLXBsYW5l/dC1uZXB0dW5lLXRh/a2VuLXRocm91Z2gt/dGhlLWdyZWVuLWFu/ZC1vcmFuZ2UtZmls/dGVycy1vbi10aGUt/dm95YWdlci0yLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1m/RjEwbFlUM2lMUl9D/MEZ2Z2tjcmtpY0pa/T29oM1ZKWlVVSHlC/WGhWT0tFPQ" );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #f9c05f;
+    left: 47%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+    animation: orbit9 30s linear infinite;
+}
+.neptune-outline-1{
+    height: 900px;
+    width: 900px;
+}
+@keyframes orbit9{
+    from{
+        transform: rotate(0deg)translateX(460px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)translateX(460px) rotate(-360deg);
+    }
+}
